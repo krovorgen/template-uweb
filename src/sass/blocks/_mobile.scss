@@ -1,0 +1,95 @@
+.mobile {
+  padding: 48px 0 79px;
+  min-height: 864px;
+  background: url("../img/bg/mobile.jpg") center (center / cover) no-repeat;
+
+  .row {
+    margin-top: 32px;
+  }
+
+  &_item {
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 19px;
+    padding: 92px 0 0;
+    width: 320px;
+    height: 280px;
+
+    &_1 {
+      background: url("../img/bg/mobile_bg1.jpg") center (center / cover) no-repeat;
+    }
+
+    &_2 {
+      background: url("../img/bg/mobile_bg2.jpg") center (center / cover) no-repeat;
+    }
+
+    &_3 {
+      background: url("../img/bg/mobile_bg3.jpg") center (center / cover) no-repeat;
+    }
+
+    &_4 {
+      background: url("../img/bg/mobile_bg4.jpg") center (center / cover) no-repeat;
+    }
+
+    &_5 {
+      background: url("../img/bg/mobile_bg5.jpg") center (center / cover) no-repeat;
+    }
+
+    &_6 {
+      background: url("../img/bg/mobile_bg6.jpg") center (center / cover) no-repeat;
+    }
+
+    &_subtitle {
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 31px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #fff;
+    }
+
+    &_plus {
+      position: absolute;
+      left: 50%;
+      bottom: 35px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      border-radius: 100%;
+      width: 26px;
+      height: 26px;
+      background-color: #000;
+      transform: translateX(-50%);
+      cursor: pointer;
+
+      &::before {
+        content: "";
+        display: block;
+        width: 14px;
+        height: 2px;
+        background-color: $main-color;
+        transition: 0.5s all;
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        display: block;
+        width: 2px;
+        height: 14px;
+        background-color: $main-color;
+        transform: translateX(-50%);
+        transition: 0.5s all;
+      }
+
+      &:hover {
+        &::before,
+        &::after {
+          background-color: $red-color;
+        }
+      }
+    }
+  }
+}

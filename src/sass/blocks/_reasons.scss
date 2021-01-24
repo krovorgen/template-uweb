@@ -1,0 +1,41 @@
+.reasons {
+  padding: 71px 0 65px;
+
+  &_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+  }
+
+  &_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 26px;
+    border-radius: 100%;
+    width: 113px;
+    height: 113px;
+    background-color: $main-color;
+  }
+
+  &_descr {
+    width: 343px;
+  }
+
+  &_subtitle {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    color: $main-color;
+  }
+
+  &_text {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+    color: #202020;
+  }
+}

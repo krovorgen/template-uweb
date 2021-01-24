@@ -1,0 +1,13 @@
+.subtitle {
+  position: relative;
+  z-index: 2;
+  margin-top: 19px;
+  font-weight: 400;
+  font-size: 17px;
+  text-align: center;
+  color: #222;
+
+  &_white {
+    color: #fff;
+  }
+}

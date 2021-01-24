@@ -1,0 +1,31 @@
+.car {
+  position: relative;
+  padding: 57px 0 138px;
+  min-height: 895px;
+  background: url("../img/bg/mobile.jpg") center (center / cover) no-repeat;
+
+  &_img {
+    position: relative;
+    z-index: 2;
+    display: block;
+    margin: 56px auto 0;
+  }
+
+  &_descr {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    color: #222;
+  }
+
+  .black {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 500px;
+    background-color: #212121;
+  }
+}

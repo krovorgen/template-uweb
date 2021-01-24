@@ -1,0 +1,22 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 13px 70px;
+
+  &_link {
+    font-weight: 300;
+    font-size: 15px;
+    color: #fff;
+  }
+
+  &_item {
+    border-right: 2px dotted #000;
+    padding-right: 28px;
+
+    &:last-child {
+      border-right: none;
+    }
+  }
+}
