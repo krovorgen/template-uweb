@@ -455,7 +455,7 @@
 				"unspecified": "bottomAlphabetical"
 			}
 		],
-		"at-rule-blacklist": [
+		"at-rule-disallowed-list": [
 			"extend"
 		],
 		"at-rule-empty-line-before": [
@@ -596,7 +596,7 @@
 		"function-url-scheme-whitelist": null,
 		"function-whitelist": null,
 		"function-whitespace-after": "always",
-		"indentation": 2,
+		"indentation": 4,
 		"keyframe-declaration-no-important": true,
 		"length-zero-no-unit": true,
 		"max-empty-lines": 1,
@@ -694,7 +694,7 @@
 		"string-no-newline": true,
 		"string-quotes": "double",
 		"time-min-milliseconds": 10,
-		"unit-blacklist": [
+		"unit-disallowed-list": [
 			"ch",
 			"cm",
 			"ex",
