@@ -1,3 +1,4 @@
 /dist
 /src/sass
-gulpfile.js
+*.min.js
+/src/pages

@@ -1,9 +1,10 @@
 {
-    "name": "pulse",
+    "name": "portfolio",
     "version": "1.0.0",
     "description": "",
     "main": "gulpfile.js",
     "scripts": {
+        "slint": "stylelint \"**/*.scss\"",
         "slint:fix": "stylelint \"**/*.scss\" --fix",
         "lint": "prettier --check . && eslint .",
         "lint:fix": "prettier --write . && eslint . --fix"
@@ -23,8 +24,6 @@
         "stylelint": "^13.9.0",
         "stylelint-declaration-block-no-ignored-properties": "^2.3.0",
         "stylelint-order": "^4.1.0",
-        "@babel/core": "^7.12.9",
-        "@babel/preset-env": "^7.12.7",
         "stylelint-scss": "^3.18.0",
         "eslint": "^7.14.0",
         "eslint-config-airbnb-base": "^14.2.1",
@@ -48,6 +47,6 @@
     },
     "lint-staged": {
         "*.js": "eslint --cache --fix",
-        "*.{js,css,md,html}": "prettier --write"
+        "*.{js,css,md,html,json}": "prettier --write"
     }
 }
